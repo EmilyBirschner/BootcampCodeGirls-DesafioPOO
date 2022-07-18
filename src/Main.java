@@ -33,6 +33,7 @@ public class Main {
         System.out.println("Conteúdos inscritos Camila: " + devCamila.getConteudosInscritos());
         System.out.println("-");
         devCamila.progredir();
+        devCamila.progredir();
         System.out.println("Conteúdos concluídos Camila: " + devCamila.getConteudosConcluidos());
         System.out.println("Conteúdos inscritos e não concluídos Camila: " + devCamila.getConteudosInscritos());
         System.out.println("XP: " + devCamila.calcularTotalXp());
@@ -44,6 +45,8 @@ public class Main {
         devJoao.inscreverBootcamp(bootcamp);
         System.out.println("Conteúdos inscritos Joao: " + devJoao.getConteudosInscritos());
         System.out.println("-");
+        devJoao.progredir();
+        devJoao.progredir();
         devJoao.progredir();
         System.out.println("Conteúdos concluídos Joao: " + devJoao.getConteudosConcluidos());
         System.out.println("Conteúdos inscritos e não concluídos Joao: " + devCamila.getConteudosInscritos());

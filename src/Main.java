@@ -1,3 +1,4 @@
+import dio.desafio.dominio.Conteudo;
 import dio.desafio.dominio.Curso;
 import dio.desafio.dominio.Mentoria;
 
@@ -24,9 +25,6 @@ public class Main {
         System.out.println(curso1);
         System.out.println(curso2);
         System.out.println(mentoria);
-
-
-
 
 
     }
